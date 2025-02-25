@@ -6,7 +6,7 @@ import { slideUpVariants } from './Animation';
 
 import PropTypes from 'prop-types'
 
-const ratings = new Array(5);
+const ratings = new Array(4);
 ratings.fill({
     icon: <IoStar />,
     style:{fontVariationSettings: '"FILL" 1'}
@@ -24,8 +24,8 @@ const ReviewCard = ({
   return (
     <motion.div className='bg-zinc-800 p-5 rounded-xl min-w-[320px] flex flex-col lg:min-w-[420px] ' initial="hidden"  whileInView="visible" variants={slideUpVariants}>
            <div className="flex items-center gap-2 mt-auto">
-            <figure className='img-box rounded-lg' >
-                <img src={imgSrc} alt={name} className='img-cover' width={44} height={44} loading="lazy"/>
+            <figure className='img-box rounded-full w-11 h-11 overflow-hidden' >
+                <img src={imgSrc} alt={name} className='image-cover w-full h-full object-cover rounded-full' width={44} height={44} loading="lazy"/>
             </figure>
             <div className="">
                 <p className=''>{name}</p>

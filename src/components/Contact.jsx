@@ -81,7 +81,7 @@ const Contact = () => {
     return (
         <section id="contact" className="mt-6">
             <div className="container lg:grid lg:grid-cols-2 lg:items-stretch">
-                <motion.div className="mb-12 lg:mb-0 lg:flex lg:flex-col" initial="hidden" whileInView="visible" variants={slideFromLeftVariants}>
+                <motion.div className="mb-12 lg:mb-0 lg:flex lg:flex-col" initial="hidden" whileInView="visible" variants={slideUpVariants}>
                     <motion.h2 className="headline-2 lg:max-w-[12ch]" initial="hidden" whileInView="visible" variants={slideUpVariants}>
                         Reach out to explore potential collaborations
                     </motion.h2>
@@ -103,7 +103,7 @@ const Contact = () => {
                         ))}
                     </motion.div>
                 </motion.div>
-                <motion.form action="https://getform.io/f/bjjjkzqb" method="post" className="xl:pl-10 2xl:pl-20" initial="hidden" whileInView="visible" variants={slideFromRightVariants}>
+                <motion.form action="https://getform.io/f/bjjjkzqb" method="post" className="xl:pl-10 2xl:pl-20" initial="hidden" whileInView="visible" variants={slideUpVariants}>
                     <div className=" md:grid md:items-center md:grid-cols-2 md:gap-2">
 
                         <div className="mb-4">

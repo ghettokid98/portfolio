@@ -56,15 +56,15 @@ const Footer = () => {
 
             <div className="lg:grid lg:grid-cols-2">
 
-                <motion.div className="mb-10 " initial="hidden" whileInView="visible" variants={slideFromLeftVariants}>
+                <motion.div className="mb-10 " initial="hidden" whileInView="visible" variants={slideUpVariants}>
                     <motion.h2 className='headline-1 mb-8 lg:max-w-[12ch]' >
                         Let&apos; work together today
                     </motion.h2>
 
-                    <ButtonPrimary href="contact" label="start a project" icon={<MdKeyboardArrowRight />}/>
+                    <ButtonPrimary href="#contact" label="let's work" icon={<MdKeyboardArrowRight />}/>
                 </motion.div>
 
-                <motion.div className="grid grid-cols-2 gap-4 lg:pl-20" initial="hidden" whileInView="visible" variants={slideFromLeftVariants}>
+                <motion.div className="grid grid-cols-2 gap-4 lg:pl-20" initial="hidden" whileInView="visible" variants={slideUpVariants}>
                     <div>
                         <p className='mb-2'>sitemap</p>
 
