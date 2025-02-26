@@ -43,13 +43,13 @@ const Header = () => {
 
           {/* Mobile Menu (Smooth Transition) */}
           <div
-            className={`fixed top-0 left-0 w-full h-screen bg-gray-900 bg-opacity-60 backdrop-blur-lg
+            className={`fixed top-0 left-0 w-full h-screen bg-sky-900 bg-opacity-60 backdrop-blur-lg
     flex flex-col items-center z-50
     transition-all
     ${
       open
-        ? "translate-x-0 opacity-100 duration-500 ease-in-out"
-        : "translate-x-full opacity-0 duration-0"
+        ? "translate-y-0 opacity-100 duration-500 ease-in-out"
+        : "translate-y-full opacity-100 duration-500 ease-in-out"
     }
   `}
           >

@@ -29,7 +29,7 @@ const sitemap = [
   const socials = [
     {
       label: 'GitHub',
-      href: 'https://www.github.com/codewithsadee-org'
+      href: 'https://github.com/in/ghettokid98'
     },
     {
       label: 'LinkedIn',
